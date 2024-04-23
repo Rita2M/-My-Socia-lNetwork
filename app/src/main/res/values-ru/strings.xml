@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Social Network</string>
+    <string name="title_posts">Посты</string>
+    <string name="title_users">Пользователи</string>
+    <string name="title_events">События</string>
+    <string name="menu_signup">Регистрация</string>
+    <string name="menu_singin">"Войти "</string>
+    <string name="menu_my_profile">Мой профиль</string>
+    <string name="description_post_author_avatar">Аватар автора поста</string>
+    <string name="description_post_menu">Меню поста</string>
+    <string name="description_image_post">Изображение поста</string>
+    <string name="description_share_post">Поделиться постом</string>
+    <string name="description_video">Видео поста</string>
+    <string name="description_event_author_avatar">Аватар автора события</string>
+    <string name="description_event_menu">Меню события</string>
+    <string name="description_image_event">Изображение события</string>
+    <string name="description_share_event">Поделиться событием</string>
+    <string name="description_video_play">Воспроизвести видео</string>
+    <string name="description_add_post">Добавить пост</string>
+    <string name="description_add_event">Добавить событие</string>
+
+
+</resources>

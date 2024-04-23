@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="AppTheme." parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+<item name="colorPrimary">@color/purple_200</item>
+    <item name="colorPrimaryDark">@color/purple_500</item>
+</style>
+    <style name="Widget.AppTheme.MenuButton" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:minWidth">@dimen/icon_button_min_size</item>
+        <item name="iconTint">@color/color_button</item>
+        <item name="android:minHeight">@dimen/icon_button_min_size</item>
+    </style>
+    <style name="Widget.AppTheme.LikeButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">@color/color_like_button</item>
+        <item name="android:textColor">@color/color_like_button</item>
+        <item name="minWidth">@dimen/icon_button_min_size</item>
+        <item name="minHeight">@dimen/icon_button_min_size</item>
+
+    </style>
+    <style name="Widget.AppTheme.ShareButton" parent="Widget.Material3.Button.Icon">
+        <item name="iconTint">@color/share_color</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="minHeight">@dimen/icon_button_min_size</item>
+        <item name="minWidth">@dimen/icon_button_min_size</item>
+    </style>
+    <style name="Widget.AppTheme.ParticipantsButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">@color/share_color</item>
+        <item name="android:textColor">@color/share_color</item>
+        <item name="minWidth">@dimen/icon_button_min_size</item>
+        <item name="minHeight">@dimen/icon_button_min_size</item>
+    </style>
+    <style name="Widget.AppTheme.AvatarShape" parent="Theme.MaterialComponents">
+        <item name="minHeight">@dimen/avatar_size</item>
+        <item name="minWidth">@dimen/avatar_size</item>
+        <item name="android:src">@drawable/shape_avatar</item>
+    </style>
+    <style name="Widget.AppTheme.AddButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">
+        <item name="android:src">@drawable/ic_add_24</item>
+
+    </style>
+
+
+</resources>

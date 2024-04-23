@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_singin"
+        android:title="@string/menu_singin" />
+
+    <item
+        android:id="@+id/navigation_singup"
+        android:title="@string/menu_signup" />
+
+    <item
+        android:id="@+id/navigation_myProfile"
+        android:title="@string/menu_my_profile" />
+
+</menu>

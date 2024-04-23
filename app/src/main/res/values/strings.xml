@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Social Network</string>
+    <string name="title_posts">Posts</string>
+    <string name="title_events">Events</string>
+    <string name="title_users">Users</string>
+    <string name="menu_singin">Sign in</string>
+    <string name="menu_signup">Sign up</string>
+    <string name="menu_my_profile">My profile</string>
+    <string name="description_post_author_avatar">Post author avatar</string>
+    <string name="description_post_menu">Post Menu</string>
+    <string name="description_image_post">Image of the post</string>
+    <string name="description_share_post">Share post</string>
+    <string name="description_video">Video post</string>
+    <string name="description_video_play">Play video</string>
+    <string name="description_event_author_avatar">Event author avatar</string>
+    <string name="description_event_menu">Event Menu</string>
+    <string name="description_image_event">Image of the event</string>
+    <string name="description_share_event">Share event</string>
+    <string name="description_add_post">Add post</string>
+    <string name="description_add_event">Add event</string>
+
+
+
+
+
+</resources>
