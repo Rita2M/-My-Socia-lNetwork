@@ -26,7 +26,8 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/avatar_size"
         android:clickable="true"
-        android:contentDescription="@string/description_add_post" />
+        android:contentDescription="@string/description_add_post"
+        app:shapeAppearanceOverlay="@style/fab_square" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

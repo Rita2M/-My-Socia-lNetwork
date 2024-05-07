@@ -1,5 +1,8 @@
 package ru.netology.mysocialnetwork.dto
 
+import androidx.room.Embedded
+import java.time.Instant
+
 data class Post(
     val id: Long,
     val authorId: Long,
@@ -8,12 +11,15 @@ data class Post(
     val authorAvatar: String? = null,
     val content: String,
     val published: String, // string($data-time
-    val coords: Coordinates?=null,
+    var coords: CoordinatesEmbedded?=null,
     val link: String? = null,
-    val mentionIds: List<Long>,
-    val mentionedMe: Boolean,
-    val likeOwnerIds: List<Long>, // error  uniqueItems: true
+    val mentionIds: Set<Long> , //список упомянули
+    val attachment: Attachment? = null,
+    val mentionedMe: Boolean, //упомянули обо мне
+    val likeOwnerIds: Set<Long> , // error  uniqueItems: true лайкнули меня список
     val likedByMe: Boolean,
-    val users: Map<String, UserPreview>,
+   // val users: Map<Long, UserPreview> ,
 
-)
+
+
+    )

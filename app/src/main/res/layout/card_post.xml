@@ -112,8 +112,21 @@
             android:autoLink="web"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image"
             app:layout_constraintBottom_toTopOf="@id/barrier2"
             tools:text="@sample/posts.json/data/content" />
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_spacing"
+            android:autoLink="web"
+            android:visibility="gone"
+            android:textColorLink="@color/purple_700"
+            app:layout_constraintBottom_toTopOf="@id/barrier2"
+            app:layout_constraintTop_toBottomOf="@id/content"
+            tools:text="@sample/event.json/data/link"
+            tools:visibility="visible" />
 
         <androidx.constraintlayout.widget.Barrier
             android:id="@+id/barrier2"
@@ -121,7 +134,7 @@
             android:layout_height="wrap_content"
             android:visibility="gone"
             app:barrierDirection="bottom"
-            app:constraint_referenced_ids="content" />
+            app:constraint_referenced_ids="content,link" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/like"

@@ -74,6 +74,15 @@
 
             tools:src="@drawable/paint"
             tools:visibility="visible" />
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:contentDescription="@string/description_video_play"
+            android:src="@drawable/ic_baseline_play_button"
+            app:layout_constraintTop_toBottomOf="@id/image"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
 
         <TextView
             android:id="@+id/type"

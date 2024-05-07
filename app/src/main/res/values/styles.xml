@@ -29,6 +29,14 @@
         <item name="minWidth">@dimen/icon_button_min_size</item>
         <item name="minHeight">@dimen/icon_button_min_size</item>
     </style>
+    <style name="Widget.AppTheme.MoreButton" parent="Widget.Material3.Button.Icon">
+        <item name="iconTint">@color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="minWidth">0dp</item>
+        <item name="minHeight">0dp</item>
+
+
+    </style>
     <style name="Widget.AppTheme.AvatarShape" parent="Theme.MaterialComponents">
         <item name="minHeight">@dimen/avatar_size</item>
         <item name="minWidth">@dimen/avatar_size</item>
@@ -37,7 +45,24 @@
     <style name="Widget.AppTheme.AddButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">
         <item name="android:src">@drawable/ic_add_24</item>
 
+
     </style>
+    <style name="fab_square" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="Widget.AppTheme.PlayButton" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="minHeight">@dimen/avatar_size</item>
+        <item name="minWidth">@dimen/avatar_size</item>
+        <item name="iconTint">@color/black</item>
+        <item name="background">@id/transition_current_scene</item>
+
+
+    </style>
+    <style name="Theme.BottomSheetDialog" parent="Animation.Design.BottomSheetDialog">
+        <item name="background">@color/purple_500</item>
+    </style>
+
 
 
 </resources>

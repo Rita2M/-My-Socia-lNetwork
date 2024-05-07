@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/navigation_posts"
+        android:icon="@drawable/ic_posts"
         android:title="@string/title_posts"
-        android:icon="@drawable/ic_posts"/>
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/navigation_events"
-        android:title="@string/title_events"
         android:icon="@drawable/ic_event_24"
-        />
+        android:title="@string/title_events"
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/navigation_users"
-        android:title="@string/title_users"
         android:icon="@drawable/ic_users_24"
-        />
+        android:title="@string/title_users"
+        app:showAsAction="never" />
 
 </menu>

@@ -6,22 +6,39 @@
     app:startDestination="@+id/navigation_posts">
 
 
-
     <fragment
         android:id="@+id/navigation_posts"
         android:name="ru.netology.mysocialnetwork.fragments.PostsFragment"
         android:label="@string/title_posts"
-        tools:layout="@layout/card_post" />
+        tools:layout="@layout/card_post">
+        <action
+            android:id="@+id/action_navigation_posts_to_new_post_fragment"
+            app:destination="@+id/new_post_fragment" />
+
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_events"
         android:name="ru.netology.mysocialnetwork.fragments.EventsFragment"
         android:label="@string/title_events"
-        tools:layout="@layout/card_event" />
+        tools:layout="@layout/card_event" >
+        <action
+            android:id="@+id/action_navigation_events_to_new_event_fragment"
+            app:destination="@+id/new_event_fragment"/>
+    </fragment>
+
 
     <fragment
         android:id="@+id/navigation_users"
         android:name="ru.netology.mysocialnetwork.fragments.UsersFragment"
         android:label="@string/title_users"
         tools:layout="@layout/card_user" />
+    <fragment
+        android:id="@+id/new_post_fragment"
+        android:name="ru.netology.mysocialnetwork.fragments.NewPostFragment"
+        android:label="@string/title_new_post" />
+    <fragment
+        android:id="@+id/new_event_fragment"
+        android:name="ru.netology.mysocialnetwork.fragments.NewEventFragment"
+        android:label="@string/title_new_event"/>
 </navigation>

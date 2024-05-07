@@ -1,5 +1,10 @@
 package ru.netology.mysocialnetwork.dto
 
+import androidx.room.TypeConverter
+import androidx.room.TypeConverters
+import ru.netology.mysocialnetwork.utils.Converters
+import java.time.Instant
+
 data class Event(
     val id: Long,
     val authorId: Long,
@@ -9,29 +14,16 @@ data class Event(
     val content: String,
     val datetime: String, // string($data-time
     val published: String, // string($data-time
-    val type: Type = Type.ONLINE, // enum online offline
-    val likeOwnerIds: List<Long>, // error  uniqueItems: true
+   // var type: TypeEvent, // enum online offline
+    val likeOwnerIds: Set<Long>, // error  uniqueItems: true
     val likedByMe: Boolean,
     val attachment: Attachment? = null,
-    val participantsIds: List<Long>, //Error  uniqueItems: true
+    val participantsIds: Set<Long>, //Error  uniqueItems: true //участники
     val participatedByMe: Boolean,
-    val coords: Coordinates?=null,
+    var coordinates: CoordinatesEmbedded?=null,
     val link: String? = null,
-    val speakerIds: List<Long>, // Error 	 uniqueItems: true
-    val users: Map<String, UserPreview>,
+    val speakerIds: Set<Long>, // Error 	 uniqueItems: true
+    //val users: Map<Long, UserPreview> ,
 
 
-    ) {
-
-}
-
-
-data class Coordinates(
-    val lat: Double,
-    val long: Double,
-)
-
-data class UserPreview(
-    val name: String,
-    val avatar: String,
-)
+    )

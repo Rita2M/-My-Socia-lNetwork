@@ -5,6 +5,7 @@
     <string name="title_users">Пользователи</string>
     <string name="title_events">События</string>
     <string name="menu_signup">Регистрация</string>
+    <string name="title_new_post">Новый пост</string>
     <string name="menu_singin">"Войти "</string>
     <string name="menu_my_profile">Мой профиль</string>
     <string name="description_post_author_avatar">Аватар автора поста</string>
@@ -19,6 +20,19 @@
     <string name="description_video_play">Воспроизвести видео</string>
     <string name="description_add_post">Добавить пост</string>
     <string name="description_add_event">Добавить событие</string>
+    <string name="menu_title_edit">Редактировать</string>
+    <string name="menu_title_remove">Удалить</string>
+    <string name="menu_title_save">Сохранить</string>
+    <string name="title_new_event">Новое событие</string>
+    <string name="description_post_text">Текст поста</string>
+    <string name="remove_image">Удалить</string>
+    <string name="description_button_location">Местоположение</string>
+    <string name="description_button_attachment">Вложения</string>
+    <string name="description_button_people">Люди</string>
+    <string name="description_button_image">Изображение</string>
+    <string name="date">Дата</string>
+    <string name="type">Тип</string>
+
 
 
 </resources>

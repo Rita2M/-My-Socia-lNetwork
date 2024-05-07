@@ -3,6 +3,8 @@
     <string name="title_posts">Posts</string>
     <string name="title_events">Events</string>
     <string name="title_users">Users</string>
+    <string name="title_new_post">New Post</string>
+    <string name="title_new_event">New Event</string>
     <string name="menu_singin">Sign in</string>
     <string name="menu_signup">Sign up</string>
     <string name="menu_my_profile">My profile</string>
@@ -18,9 +20,17 @@
     <string name="description_share_event">Share event</string>
     <string name="description_add_post">Add post</string>
     <string name="description_add_event">Add event</string>
-
-
-
+    <string name="menu_title_edit">Edit</string>
+    <string name="menu_title_remove">Remove</string>
+    <string name="menu_title_save">Save</string>
+    <string name="description_post_text">Post text</string>
+    <string name="remove_image">Remove</string>
+    <string name="description_button_location">Location</string>
+    <string name="description_button_attachment">Attachment</string>
+    <string name="description_button_people">People</string>
+    <string name="description_button_image">Image</string>
+    <string name="date">Date</string>
+    <string name="type">Type</string>
 
 
 </resources>
