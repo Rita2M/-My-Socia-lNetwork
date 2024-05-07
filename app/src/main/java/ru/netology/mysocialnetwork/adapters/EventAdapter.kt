@@ -25,8 +25,7 @@ interface OnInteractionListenerEvent {
 class EventAdapter(private val onInteractionListenerEvent:  OnInteractionListenerEvent): ListAdapter<Event,EventViewHolder>(EventDiffCallback) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EventViewHolder {
       val binding = CardEventBinding.inflate(LayoutInflater.from(parent.context),parent,false)
-
-        return EventViewHolder(binding,onInteractionListenerEvent)
+      return EventViewHolder(binding,onInteractionListenerEvent)
     }
 
     override fun onBindViewHolder(holder: EventViewHolder, position: Int) {
